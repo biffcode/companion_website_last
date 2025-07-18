@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 import { FiDollarSign, FiClock } from 'react-icons/fi';
 
 const ROICalculator = () => {
-  const [hoursSaved, setHoursSaved] = useState(5);
-  const [hourlyRate, setHourlyRate] = useState(25);
-  const [monthlySavings, setMonthlySavings] = useState(500); // Initialize with corrected value
-  const [daysPerYear, setDaysPerYear] = useState(10); // Initialize with calculated value
+  const [hoursSaved, setHoursSaved] = useState(10);
+  const [hourlyRate, setHourlyRate] = useState(75);
+  const [monthlySavings, setMonthlySavings] = useState(3000); // Initialize with corrected value
+  const [daysPerYear, setDaysPerYear] = useState(20); // Initialize with calculated value
 
   useEffect(() => {
     // Calculate monthly savings (exactly 4 weeks per month)
@@ -80,7 +80,7 @@ const ROICalculator = () => {
                     type="range"
                     id="hourly-rate"
                     min="25"
-                    max="500"
+                    max="200"
                     step="5"
                     value={hourlyRate}
                     onChange={(e) => setHourlyRate(parseInt(e.target.value))}
@@ -88,7 +88,7 @@ const ROICalculator = () => {
                   />
                   <div className="flex justify-between text-sm text-secondary-400 mt-2">
                     <span>$25</span>
-                    <span>$500</span>
+                    <span>$200</span>
                   </div>
                 </div>
               </div>

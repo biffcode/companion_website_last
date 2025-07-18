@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 const techFeatures = [
   {
@@ -15,7 +16,7 @@ const techFeatures = [
   },
   {
     title: 'Computer Use Technology',
-    description: 'Direct Windows integration enables true automation through screen analysis and input simulation for any application.',
+    description: 'Direct OS integration enables true automation through screen analysis and input simulation for any application.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -40,6 +41,14 @@ const techFeatures = [
       </svg>
     ),
   },
+];
+
+const supportedApps = [
+  { name: 'Word', logo: '/app-logos/word.png' },
+  { name: 'Excel', logo: '/app-logos/Sheets.png' },
+  { name: 'Chrome', logo: '/app-logos/chrome.png' },
+  { name: 'Slack', logo: '/app-logos/slack.png' },
+  { name: 'Gmail', logo: '/app-logos/Gmail.png' },
 ];
 
 const TechSection = () => {
@@ -157,14 +166,25 @@ const TechSection = () => {
 
             {/* Supported Apps */}
             <div className="text-center">
-              <p className="text-secondary-400 mb-4">Works with 2,700+ applications</p>
-              <div className="flex flex-wrap justify-center gap-3">
-                <div className="bg-white rounded-lg px-4 py-2 text-sm shadow-sm text-secondary-500">Word</div>
-                <div className="bg-white rounded-lg px-4 py-2 text-sm shadow-sm text-secondary-500">Excel</div>
-                <div className="bg-white rounded-lg px-4 py-2 text-sm shadow-sm text-secondary-500">Chrome</div>
-                <div className="bg-white rounded-lg px-4 py-2 text-sm shadow-sm text-secondary-500">Slack</div>
-                <div className="bg-white rounded-lg px-4 py-2 text-sm shadow-sm text-secondary-500">Gmail</div>
-                <div className="bg-white rounded-lg px-4 py-2 text-sm shadow-sm font-medium text-primary-500">+2,700 more</div>
+              <p className="text-secondary-400 mb-6">Works with 2,700+ applications</p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-4xl mx-auto">
+                {supportedApps.map((app, index) => (
+                  <div key={index} className="bg-white rounded-lg p-3 shadow-sm flex items-center gap-3">
+                    <div className="w-6 h-6 flex-shrink-0">
+                      <Image
+                        src={app.logo}
+                        alt={`${app.name} logo`}
+                        width={24}
+                        height={24}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="text-sm text-secondary-500 font-medium">{app.name}</span>
+                  </div>
+                ))}
+                <div className="bg-white rounded-lg p-3 shadow-sm text-center col-span-2 sm:col-span-1">
+                  <span className="text-sm font-medium text-primary-500">+2,700 more</span>
+                </div>
               </div>
             </div>
           </div>

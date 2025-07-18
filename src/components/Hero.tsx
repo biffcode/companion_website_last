@@ -349,23 +349,23 @@ const Hero = () => {
 const highlights = [
   {
     icon: "M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z",
-    title: 'Do It, Not Talk It',
-    description: 'Companion doesn\'t just chit-chat. It clicks, types, opens, saves—real stuff, really done.'
+    title: 'Autonomous Task Execution',
+    description: 'Sophisticated automation engine that performs real work. Advanced system control with intelligent task completion—zero manual steps.'
   },
   {
     icon: "M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244",
-    title: 'Connects with Everything',
-    description: 'Over 2,700 tools? Yup. Companion plays nice with all your apps. Just say what you want—it knows where to go.'
+    title: 'One-Click MCP Integration',
+    description: 'The largest MCP library on Earth. 2,700+ tools deploy instantly—sophisticated automation, beautifully simple.'
   },
   {
     icon: "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z",
-    title: 'Gets Smarter Every Day',
-    description: 'The more you use it, the better it gets. Companion watches, learns, and fits right into your way of doing things.'
+    title: 'Personal Context Intelligence',
+    description: 'Complete access to your digital ecosystem. Knows your emails, contacts, files, and data—intelligent automation with full context.'
   },
   {
     icon: "M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z",
-    title: 'You Chill. It Handles It.',
-    description: 'Let Companion do the boring stuff. You sit back like a boss. Less stress, more done.'
+    title: 'Native OS Integration',
+    description: 'Engineered for your machine. Deep Windows integration that works seamlessly with your files, apps, and system.'
   }
 ];
 

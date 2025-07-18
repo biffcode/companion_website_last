@@ -30,8 +30,8 @@ const Comparison = () => {
         >
           <div className="inline-block bg-gray-50 rounded-xl px-8 py-4 text-secondary-400 max-w-2xl border border-gray-200 shadow-sm">
             <p className="text-center text-secondary-500 font-medium mb-2">Prompt:</p>
-            <p className="text-center">"Please make me a spreadsheet budget planner with nice visuals in Google Sheets<br/>
-            on my Google Drive. Include all formulas. Then give me the shareable link."</p>
+            <p className="text-center">"Organize all the files in my Documents, Downloads, and Desktop folders.<br/>
+            Group them by project, type, and date, and apply a consistent naming convention."</p>
           </div>
         </motion.div>
 
@@ -70,7 +70,7 @@ const Comparison = () => {
                       <div className="text-4xl mb-4">💬</div>
                       <h5 className="font-bold text-secondary-500 mb-2">Text-Based Instructions</h5>
                       <p className="text-sm text-secondary-400">
-                        "Please create a spreadsheet with sales data, format the headers in bold, and add a chart..."
+                        "First, create folders named 'Projects', 'Images', 'Documents'... Then manually sort each file by type..."
                       </p>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ const Comparison = () => {
                     Provides instructions for you to follow
                   </p>
                   <p className="text-secondary-400 mt-2 text-sm md:text-base">
-                    LLM gives you step-by-step directions that you must manually execute. You'll need to switch between apps, remember each step, and do all the work yourself.
+                    LLM gives you detailed steps to manually organize your files. You'll need to create folders, sort hundreds of files, rename them one by one, and do all the tedious work yourself.
                   </p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const Comparison = () => {
                       playsInline
                       style={{ transform: 'scale(1.02)' }}
                     >
-                      <source src="/video/sheet_comparison.mp4" type="video/mp4" />
+                      <source src="/video/organizing_files.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -108,19 +108,19 @@ const Comparison = () => {
                   <div className="md:hidden p-6 bg-primary-50 min-h-[200px] flex flex-col justify-center">
                     <div className="text-center">
                       <div className="text-4xl mb-4">⚡</div>
-                      <h5 className="font-bold text-primary-500 mb-2">Automated Execution</h5>
+                      <h5 className="font-bold text-primary-500 mb-2">Automated File Organization</h5>
                       <p className="text-sm text-secondary-400">
-                        Companion opens Excel, creates the spreadsheet, formats everything, and generates the chart—all done!
+                        Companion scans your folders, creates organized structure, sorts files by type and date, and renames everything—all automatically!
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="text-center">
                   <p className="text-primary-500 font-medium text-lg">
-                    Actually performs the task for you
+                    Actually organizes your files for you
                   </p>
                   <p className="text-secondary-400 mt-2 text-sm md:text-base">
-                    Companion directly interacts with your apps and completes the entire task automatically. Just describe what you need and watch as it creates the spreadsheet, adds formulas, and shares the link with you.
+                    Companion directly accesses your file system and automatically organizes everything. It creates folder structures, sorts files by project and type, applies consistent naming, and cleans up your entire workspace in minutes.
                   </p>
                 </div>
               </div>

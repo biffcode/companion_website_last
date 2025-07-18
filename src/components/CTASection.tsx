@@ -29,7 +29,7 @@ const CTASection = () => {
           </Link>
           
           <p className="text-secondary-400 text-base sm:text-lg mt-2 sm:mt-4">
-            Join 1000+ users already saving hours daily
+          Stop working for your computer.
           </p>
         </motion.div>
       </div>
