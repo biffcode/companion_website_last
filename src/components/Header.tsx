@@ -68,7 +68,7 @@ const Header = () => {
           <Link href="/" className="flex items-center z-20">
             <Image 
               src="/Companion_Logo.svg" 
-              alt="AIOS Companion Logo" 
+                              alt="Companion Logo" 
               width={120} 
               height={40} 
               className="h-8 w-auto"

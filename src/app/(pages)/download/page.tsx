@@ -42,7 +42,7 @@ const DownloadPage = () => {
                   <h3 className="text-lg font-medium text-blue-800">Beta Software Notice</h3>
                   <div className="mt-2 text-sm text-blue-700">
                     <p className="mb-2">
-                      AIOS Companion is currently in beta. We're committed to making it better every week, but you might encounter occasional bugs or incomplete features.
+                      Companion is currently in beta. We're committed to making it better every week, but you might encounter occasional bugs or incomplete features.
                     </p>
                     <p className="mb-2">
                       Your feedback is invaluable to us! Please report any issues or suggestions through our support portal to help us improve.
@@ -62,7 +62,7 @@ const DownloadPage = () => {
             transition={{ duration: 0.5 }}
             className="text-center mb-16"
           >
-            <h1 className="mb-6">Download AIOS Companion</h1>
+            <h1 className="mb-6">Download Companion</h1>
             <p className="text-xl text-secondary-400 max-w-2xl mx-auto">
               Get the unfair advantage you deserve. Automate your job before someone else does.
             </p>
@@ -102,7 +102,7 @@ const DownloadPage = () => {
                   <FaApple className="text-3xl" />
                 </div>
                 <span className="font-medium text-gray-400">macOS</span>
-                <span className="text-xs font-medium text-gray-500 mt-2">Coming Soon</span>
+                <span className="text-xs font-medium text-gray-500 mt-2">Coming Very Soon</span>
               </motion.div>
 
               {/* Linux - Coming Soon */}

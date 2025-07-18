@@ -115,7 +115,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-100 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs text-secondary-400 mb-4 md:mb-0 text-center md:text-left">
-            &copy; {currentYear} AIOS Companion SA. All rights reserved.
+            &copy; {currentYear} Companion SA. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-x-6 sm:gap-x-8 gap-y-2 justify-center">
             <Link href="/privacy-policy" className="text-xs text-secondary-400 hover:text-secondary-500 transition-colors">

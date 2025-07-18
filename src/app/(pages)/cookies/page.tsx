@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AIOS Companion | Cookie Policy",
-  description: "Cookie Policy for AIOS Companion",
+  title: "Companion | Cookie Policy",
+  description: "Cookie Policy for Companion",
 };
 
 export default function CookiePolicyPage() {
@@ -16,7 +16,7 @@ export default function CookiePolicyPage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">1. Introduction</h2>
           <p className="text-secondary-400 mb-4">
-            This Cookie Policy ("Policy") explains how AIOS Companion SA and its affiliates ("we", "our", "us", "AIOS Companion") use cookies and similar tracking technologies on our websites, applications, and online services (collectively, the "Services"). This Policy is to be read in conjunction with our <a href="/privacy-policy" className="text-primary-500 hover:underline">Privacy Policy</a> and <a href="/terms-of-service" className="text-primary-500 hover:underline">Terms of Service</a>.
+            This Cookie Policy ("Policy") explains how Companion SA and its affiliates ("we", "our", "us", "Companion") use cookies and similar tracking technologies on our websites, applications, and online services (collectively, the "Services"). This Policy is to be read in conjunction with our <a href="/privacy-policy" className="text-primary-500 hover:underline">Privacy Policy</a> and <a href="/terms-of-service" className="text-primary-500 hover:underline">Terms of Service</a>.
           </p>
           <p className="text-secondary-400 mb-6">
             BY CONTINUING TO USE OUR SERVICES, YOU ARE AGREEING TO THE USE OF COOKIES AND SIMILAR TECHNOLOGIES FOR THE PURPOSES DESCRIBED IN THIS POLICY. IF YOU DO NOT ACCEPT THE USE OF COOKIES AND SIMILAR TECHNOLOGIES, YOU MUST DISCONTINUE YOUR USE OF OUR SERVICES IMMEDIATELY.
@@ -79,7 +79,7 @@ export default function CookiePolicyPage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">9. Legal Disclaimer</h2>
           <p className="text-secondary-400 mb-6">
-            NOTHING IN THIS COOKIE POLICY SHALL BE DEEMED TO CREATE A PARTNERSHIP, AGENCY, JOINT VENTURE, OR EMPLOYER-EMPLOYEE RELATIONSHIP BETWEEN YOU AND AIOS COMPANION. NOTHING IN THIS COOKIE POLICY SHALL CREATE ANY OBLIGATION ON AIOS COMPANION TO ANY PERSON OR ENTITY OTHER THAN YOU.
+            NOTHING IN THIS COOKIE POLICY SHALL BE DEEMED TO CREATE A PARTNERSHIP, AGENCY, JOINT VENTURE, OR EMPLOYER-EMPLOYEE RELATIONSHIP BETWEEN YOU AND COMPANION. NOTHING IN THIS COOKIE POLICY SHALL CREATE ANY OBLIGATION ON COMPANION TO ANY PERSON OR ENTITY OTHER THAN YOU.
           </p>
           <p className="text-secondary-400 mb-6">
             TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE EXPRESSLY DISCLAIM ANY AND ALL LIABILITY RELATED TO YOUR USE OF THE COOKIE TECHNOLOGIES DESCRIBED IN THIS POLICY.
@@ -90,7 +90,7 @@ export default function CookiePolicyPage() {
             If you have any questions about this Cookie Policy, please contact us at:
           </p>
           <p className="text-secondary-400 mb-6">
-            AIOS Companion SA<br />
+            Companion SA<br />
             Email: contact@aioscompanion.com
           </p>
         </div>

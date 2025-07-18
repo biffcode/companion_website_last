@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AIOS Companion | Privacy Policy",
-  description: "Privacy Policy for AIOS Companion",
+  title: "Companion | Privacy Policy",
+  description: "Privacy Policy for Companion",
 };
 
 export default function PrivacyPolicyPage() {
@@ -17,13 +17,13 @@ export default function PrivacyPolicyPage() {
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-lg mb-8">
             <p className="text-secondary-500 font-medium">IMPORTANT NOTICE</p>
             <p className="text-secondary-400 text-sm mt-2">
-              BY ACCESSING OR USING THE AIOS COMPANION APPLICATION OR SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS PRIVACY POLICY. IF YOU DO NOT AGREE TO THESE TERMS, YOU MUST NOT ACCESS OR USE OUR APPLICATION OR SERVICES.
+              BY ACCESSING OR USING THE COMPANION APPLICATION OR SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS PRIVACY POLICY. IF YOU DO NOT AGREE TO THESE TERMS, YOU MUST NOT ACCESS OR USE OUR APPLICATION OR SERVICES.
             </p>
           </div>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">1. Introduction</h2>
           <p className="text-secondary-400 mb-4">
-            AIOS Companion SA ("we", "our", "us", or "AIOS Companion") is committed to protecting your privacy. This Privacy Policy ("Policy") explains how we collect, use, disclose, and safeguard your information when you use our AIOS Companion application, website, and related services (collectively, the "Services").
+            Companion SA ("we", "our", "us", or "Companion") is committed to protecting your privacy. This Privacy Policy ("Policy") explains how we collect, use, disclose, and safeguard your information when you use our Companion application, website, and related services (collectively, the "Services").
           </p>
           <p className="text-secondary-400 mb-6">
             This Policy applies to all users of our Services globally. By using our Services, you consent to the collection, use, and disclosure of your information as described in this Policy. If you do not agree with our policies and practices, do not use our Services.
@@ -31,12 +31,12 @@ export default function PrivacyPolicyPage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">2. Information We Collect</h2>
           <p className="text-secondary-400 mb-4">
-            AIOS Companion is designed to process data locally on your device. We are committed to minimizing data collection and ensuring your privacy. Here's what we collect:
+            Companion is designed to process data locally on your device. We are committed to minimizing data collection and ensuring your privacy. Here's what we collect:
           </p>
           
           <h3 className="text-xl font-semibold text-secondary-500 mt-6 mb-3">2.1 Information You Provide</h3>
           <ul className="list-disc pl-6 mb-6 text-secondary-400 space-y-2">
-            <li><span className="font-semibold">Account Information:</span> When you sign up for AIOS Companion, we collect your name, email address, and password.</li>
+            <li><span className="font-semibold">Account Information:</span> When you sign up for Companion, we collect your name, email address, and password.</li>
             <li><span className="font-semibold">Payment Information:</span> If you purchase a subscription, we collect payment details, billing information, and transaction history. Full payment details are processed by our secure payment processors and are not stored on our servers.</li>
             <li><span className="font-semibold">Communications:</span> Information you provide when you contact us for support, feedback, or other inquiries.</li>
             <li><span className="font-semibold">User Preferences:</span> Settings and preferences you configure while using our Services.</li>
@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">3. Local Processing and Data Storage</h2>
           <p className="text-secondary-400 mb-4">
-            AIOS Companion processes data locally on your device. This means:
+            Companion processes data locally on your device. This means:
           </p>
           <ul className="list-disc pl-6 mb-6 text-secondary-400 space-y-2">
             <li>Your files, documents, and personal data processed by automations remain on your device.</li>
@@ -72,7 +72,7 @@ export default function PrivacyPolicyPage() {
             <li>Respond to your comments and questions</li>
             <li>Understand how users interact with our Services to improve functionality</li>
             <li>Detect, investigate, and prevent fraudulent transactions and other illegal activities</li>
-            <li>Protect the rights, property, and safety of AIOS Companion, our users, and others</li>
+            <li>Protect the rights, property, and safety of Companion, our users, and others</li>
             <li>Comply with legal obligations</li>
           </ul>
           
@@ -96,7 +96,7 @@ export default function PrivacyPolicyPage() {
             <li><span className="font-semibold">Legal Requirements:</span> We may disclose information when required by law, regulation, legal process, or governmental request.</li>
             <li><span className="font-semibold">Business Transfers:</span> If we are involved in a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of that transaction.</li>
             <li><span className="font-semibold">With Your Consent:</span> We may share information with third parties when we have your consent to do so.</li>
-            <li><span className="font-semibold">Protection of Rights:</span> We may share information to protect the rights, property, or safety of AIOS Companion, our users, or others.</li>
+            <li><span className="font-semibold">Protection of Rights:</span> We may share information to protect the rights, property, or safety of Companion, our users, or others.</li>
           </ul>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">7. Data Retention</h2>
@@ -140,7 +140,7 @@ export default function PrivacyPolicyPage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">12. Limitation of Liability</h2>
           <p className="text-secondary-400 mb-6">
-            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AIOS COMPANION, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, INTERNS, SUPPLIERS, SERVICE PROVIDERS, AND LICENSORS SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR INABILITY TO ACCESS OR USE, THE SERVICES OR ANY PERSONAL INFORMATION CONTAINED THEREIN.
+            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COMPANION, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, INTERNS, SUPPLIERS, SERVICE PROVIDERS, AND LICENSORS SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR INABILITY TO ACCESS OR USE, THE SERVICES OR ANY PERSONAL INFORMATION CONTAINED THEREIN.
           </p>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">13. Contact Us</h2>
@@ -148,7 +148,7 @@ export default function PrivacyPolicyPage() {
             If you have any questions about this Privacy Policy, please contact us at:
           </p>
           <p className="text-secondary-400 mb-6">
-            AIOS Companion SA<br />
+            Companion SA<br />
             Email: contact@aioscompanion.com
           </p>
         </div>

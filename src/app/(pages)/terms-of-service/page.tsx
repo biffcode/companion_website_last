@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AIOS Companion | Terms of Service",
-  description: "Terms of Service for AIOS Companion",
+  title: "Companion | Terms of Service",
+  description: "Terms of Service for Companion",
 };
 
 export default function TermsOfServicePage() {
@@ -17,21 +17,21 @@ export default function TermsOfServicePage() {
           <div className="bg-gray-50 border border-gray-200 p-4 rounded-lg mb-8">
             <p className="text-secondary-500 font-medium">IMPORTANT NOTICE</p>
             <p className="text-secondary-400 text-sm mt-2">
-              PLEASE READ THESE TERMS OF SERVICE CAREFULLY. BY ACCESSING OR USING THE AIOS COMPANION APPLICATION OR SERVICES, YOU AGREE TO BE LEGALLY BOUND BY THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS, YOU MUST NOT ACCESS OR USE OUR APPLICATION OR SERVICES.
+              PLEASE READ THESE TERMS OF SERVICE CAREFULLY. BY ACCESSING OR USING THE COMPANION APPLICATION OR SERVICES, YOU AGREE TO BE LEGALLY BOUND BY THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS, YOU MUST NOT ACCESS OR USE OUR APPLICATION OR SERVICES.
             </p>
           </div>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">1. Acceptance of Terms</h2>
           <p className="text-secondary-400 mb-4">
-            By downloading, installing, accessing, or using AIOS Companion ("Application" or "Services"), you agree to be bound by these Terms of Service ("Terms") in their entirety. If you are entering into this agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these Terms, in which case "you" shall refer to such entity.
+            By downloading, installing, accessing, or using Companion ("Application" or "Services"), you agree to be bound by these Terms of Service ("Terms") in their entirety. If you are entering into this agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these Terms, in which case "you" shall refer to such entity.
           </p>
           <p className="text-secondary-400 mb-6">
-            AIOS Companion SA ("we", "our", "us", or "AIOS Companion") reserves the right, at our sole discretion, to modify or replace these Terms at any time without prior notice. It is your responsibility to review these Terms periodically for changes. Your continued use of the Application after any such changes constitutes your acceptance of the new Terms.
+            Companion SA ("we", "our", "us", or "Companion") reserves the right, at our sole discretion, to modify or replace these Terms at any time without prior notice. It is your responsibility to review these Terms periodically for changes. Your continued use of the Application after any such changes constitutes your acceptance of the new Terms.
           </p>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-secondary-400 mb-4">
-            AIOS Companion is an AI-powered automation application that runs locally on your device. It helps you automate repetitive tasks, organize files, process documents, and more without requiring coding knowledge.
+            Companion is an AI-powered automation application that runs locally on your device. It helps you automate repetitive tasks, organize files, process documents, and more without requiring coding knowledge.
           </p>
           <p className="text-secondary-400 mb-6">
             YOU ACKNOWLEDGE AND AGREE THAT THE APPLICATION IS PROVIDED "AS IS" AND "AS AVAILABLE" BASIS. The Application may be updated, modified, or discontinued at any time without notice. We do not guarantee uninterrupted or error-free service, and we make no warranties or representations about the accuracy, reliability, or availability of the Application.
@@ -77,10 +77,10 @@ export default function TermsOfServicePage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">6. Intellectual Property</h2>
           <p className="text-secondary-400 mb-4">
-            The Application, including all content, features, functionality, software, code, data, trademarks, service marks, trade names, logos, and interfaces, is owned by AIOS Companion SA and is protected by copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
+            The Application, including all content, features, functionality, software, code, data, trademarks, service marks, trade names, logos, and interfaces, is owned by Companion SA and is protected by copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
           </p>
           <p className="text-secondary-400 mb-6">
-            Nothing in these Terms grants you any right, title, or interest in the Application, except for the limited license expressly set forth in Section 4. All rights not expressly granted to you are reserved by AIOS Companion SA and its licensors.
+            Nothing in these Terms grants you any right, title, or interest in the Application, except for the limited license expressly set forth in Section 4. All rights not expressly granted to you are reserved by Companion SA and its licensors.
           </p>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">7. User Content</h2>
@@ -105,12 +105,12 @@ export default function TermsOfServicePage() {
             TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE APPLICATION AND ALL CONTENT, MATERIALS, INFORMATION, AND SERVICES PROVIDED IN CONNECTION WITH THE APPLICATION ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, OR COMPLETENESS.
           </p>
           <p className="text-secondary-400 mb-6">
-            WITHOUT LIMITING THE FOREGOING, NEITHER AIOS COMPANION NOR ANY OF ITS AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, OR LICENSORS WARRANT THAT: (A) THE APPLICATION WILL FUNCTION UNINTERRUPTED, SECURELY, OR BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION; (B) ANY ERRORS OR DEFECTS WILL BE CORRECTED; (C) THE APPLICATION IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS; OR (D) THE RESULTS OF USING THE APPLICATION WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS.
+            WITHOUT LIMITING THE FOREGOING, NEITHER COMPANION NOR ANY OF ITS AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, OR LICENSORS WARRANT THAT: (A) THE APPLICATION WILL FUNCTION UNINTERRUPTED, SECURELY, OR BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION; (B) ANY ERRORS OR DEFECTS WILL BE CORRECTED; (C) THE APPLICATION IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS; OR (D) THE RESULTS OF USING THE APPLICATION WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS.
           </p>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">9. Limitation of Liability</h2>
           <p className="text-secondary-400 mb-6">
-            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL AIOS COMPANION SA, ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR INABILITY TO ACCESS OR USE, THE APPLICATION OR ANY CONTENT OR SERVICES PROVIDED IN CONNECTION WITH THE APPLICATION, REGARDLESS OF THE THEORY OF LIABILITY, WHETHER BASED ON CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT AIOS COMPANION HAS BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.
+            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL COMPANION SA, ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR INABILITY TO ACCESS OR USE, THE APPLICATION OR ANY CONTENT OR SERVICES PROVIDED IN CONNECTION WITH THE APPLICATION, REGARDLESS OF THE THEORY OF LIABILITY, WHETHER BASED ON CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT COMPANION HAS BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.
           </p>
           <p className="text-secondary-400 mb-6">
             IN JURISDICTIONS THAT DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CERTAIN DAMAGES, OUR LIABILITY SHALL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.
@@ -118,7 +118,7 @@ export default function TermsOfServicePage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">10. Indemnification</h2>
           <p className="text-secondary-400 mb-6">
-            YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS AIOS COMPANION SA, ITS AFFILIATES, LICENSORS, AND SERVICE PROVIDERS, AND ITS AND THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, CONTRACTORS, AGENTS, LICENSORS, SUPPLIERS, SUCCESSORS, AND ASSIGNS FROM AND AGAINST ANY CLAIMS, LIABILITIES, DAMAGES, JUDGMENTS, AWARDS, LOSSES, COSTS, EXPENSES, OR FEES (INCLUDING REASONABLE ATTORNEYS' FEES) ARISING OUT OF OR RELATING TO YOUR VIOLATION OF THESE TERMS OR YOUR USE OF THE APPLICATION, INCLUDING, BUT NOT LIMITED TO, YOUR USER CONTENT, ANY USE OF THE APPLICATION'S CONTENT, SERVICES, AND PRODUCTS OTHER THAN AS EXPRESSLY AUTHORIZED IN THESE TERMS, OR YOUR USE OF ANY INFORMATION OBTAINED FROM THE APPLICATION.
+            YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS COMPANION SA, ITS AFFILIATES, LICENSORS, AND SERVICE PROVIDERS, AND ITS AND THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, CONTRACTORS, AGENTS, LICENSORS, SUPPLIERS, SUCCESSORS, AND ASSIGNS FROM AND AGAINST ANY CLAIMS, LIABILITIES, DAMAGES, JUDGMENTS, AWARDS, LOSSES, COSTS, EXPENSES, OR FEES (INCLUDING REASONABLE ATTORNEYS' FEES) ARISING OUT OF OR RELATING TO YOUR VIOLATION OF THESE TERMS OR YOUR USE OF THE APPLICATION, INCLUDING, BUT NOT LIMITED TO, YOUR USER CONTENT, ANY USE OF THE APPLICATION'S CONTENT, SERVICES, AND PRODUCTS OTHER THAN AS EXPRESSLY AUTHORIZED IN THESE TERMS, OR YOUR USE OF ANY INFORMATION OBTAINED FROM THE APPLICATION.
           </p>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">11. Governing Law and Jurisdiction</h2>
@@ -146,12 +146,12 @@ export default function TermsOfServicePage() {
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">15. Waiver</h2>
           <p className="text-secondary-400 mb-6">
-            The failure of AIOS Companion SA to enforce any right or provision of these Terms will not be deemed a waiver of such right or provision. Any waiver of any provision of these Terms will be effective only if in writing and signed by AIOS Companion SA.
+            The failure of Companion SA to enforce any right or provision of these Terms will not be deemed a waiver of such right or provision. Any waiver of any provision of these Terms will be effective only if in writing and signed by Companion SA.
           </p>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">16. Entire Agreement</h2>
           <p className="text-secondary-400 mb-6">
-            These Terms, together with the Privacy Policy and any other legal notices published by AIOS Companion SA in connection with the Application, shall constitute the entire agreement between you and AIOS Companion SA concerning the Application and supersede all prior or contemporaneous communications and proposals, whether electronic, oral, or written, between you and AIOS Companion SA.
+            These Terms, together with the Privacy Policy and any other legal notices published by Companion SA in connection with the Application, shall constitute the entire agreement between you and Companion SA concerning the Application and supersede all prior or contemporaneous communications and proposals, whether electronic, oral, or written, between you and Companion SA.
           </p>
           
           <h2 className="text-2xl font-semibold text-secondary-500 mt-8 mb-4">17. Contact Information</h2>
@@ -159,7 +159,7 @@ export default function TermsOfServicePage() {
             If you have any questions about these Terms, please contact us at:
           </p>
           <p className="text-secondary-400 mb-6">
-            AIOS Companion SA<br />
+            Companion SA<br />
             Email: contact@aioscompanion.com
           </p>
         </div>

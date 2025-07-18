@@ -96,7 +96,7 @@ const PricingSection = () => {
             >
               {plan.popular && (
                 <div className="absolute top-0 right-0 bg-primary-500 text-white text-xs font-bold px-2 sm:px-3 py-1 rounded-bl-lg">
-                  MOST POPULAR
+                  GET NOW!
                 </div>
               )}
               

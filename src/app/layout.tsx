@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Companion by AIOS",
-  description: "AIOS Companion automates your everyday tasks, right on your computer.",
+  title: "Companion",
+  description: "Companion automates your everyday tasks, right on your computer.",
   keywords: ["AI assistant", "automation", "productivity", "task automation"],
   viewport: "width=device-width, initial-scale=0.9",
   icons: [

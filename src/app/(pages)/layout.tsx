@@ -3,8 +3,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "AIOS Companion | Resources",
-  description: "Resources and information about AIOS Companion",
+  title: "Companion | Resources",
+  description: "Resources and information about Companion",
 };
 
 export default function PagesLayout({

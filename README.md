@@ -1,6 +1,6 @@
-# AIOS Companion Website
+# Companion Website
 
-This is the product website for AIOS Companion, an AI assistant that actually does the work - saving you time with simple, no-code automation that runs locally on your machine.
+This is the product website for Companion, an AI assistant that actually does the work - saving you time with simple, no-code automation that runs locally on your machine.
 
 ## Features
 
@@ -49,8 +49,8 @@ yarn dev
 
 ## Main Sections
 
-1. Hero - Introduction to AIOS Companion
-2. Features - What AIOS Companion can do
+1. Hero - Introduction to Companion
+2. Features - What Companion can do
 3. Use Cases - Examples for different professions
 4. How It Works - Explanation of the technology
 5. Demo - Product demonstration
