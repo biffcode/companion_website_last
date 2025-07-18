@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #473A35;
+  font-size: 100%; /* Base font size 16px for mobile first */
+}
+
+/* Scale up for tablets and small desktops */
+@media (min-width: 768px) {
+  :root {
+    font-size: 106.25%; /* 17px base font size */
+  }
+}
+
+/* Scale up for medium desktops */
+@media (min-width: 1024px) {
+  :root {
+    font-size: 112.5%; /* 18px base font size */
+  }
+}
+
+/* Scale up for larger screens */
+@media (min-width: 1600px) {
+  :root {
+    font-size: 125%; /* 20px base font size for large screens */
+  }
+}
+
+/* Scale up even more for 4K and ultra-wide screens */
+@media (min-width: 2500px) {
+  :root {
+    font-size: 150%; /* 24px base font size for very large screens */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.015em;
+  overflow-x: hidden; /* Prevent horizontal scrolling on mobile */
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium tracking-tight;
+  }
+  
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+  
+  h2 {
+    @apply text-3xl sm:text-4xl md:text-5xl;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    @apply text-2xl sm:text-3xl md:text-4xl;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+  }
+
+  p {
+    @apply text-base sm:text-lg;
+    line-height: 1.5;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-5xl mx-auto px-2 sm:px-4 lg:px-8;
+  }
+  
+  /* Larger container for bigger screens */
+  @media (min-width: 1600px) {
+    .container {
+      @apply max-w-8xl px-12;
+    }
+  }
+  
+  /* Even larger container for 4K screens */
+  @media (min-width: 2500px) {
+    .container {
+      @apply max-w-9xl px-16;
+    }
+  }
+
+  /* Specific adjustment for 2K monitors */
+  @media (min-width: 2000px) and (max-width: 2560px) {
+    .container {
+      @apply max-w-7xl px-16;
+    }
+  }
+  
+  /* Specific adjustment for standard 2K monitors (2560x1440) */
+  @media (min-width: 1440px) and (max-width: 2000px) {
+    .container {
+      @apply max-w-6xl px-12;
+    }
+  }
+  
+  /* Special container for comparison section */
+  #comparison .container {
+    @apply max-w-7xl px-2 sm:px-4 lg:px-6;
+  }
+  
+  /* Larger comparison container for bigger screens */
+  @media (min-width: 1600px) {
+    #comparison .container {
+      @apply max-w-8xl;
+    }
+  }
+  
+  /* Even larger comparison container for 4K screens */
+  @media (min-width: 2500px) {
+    #comparison .container {
+      @apply max-w-9xl;
+    }
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 sm:py-4 px-6 sm:px-10 rounded-full transition-all duration-200 shadow-sm hover:shadow text-base sm:text-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-100 hover:bg-gray-200 text-secondary-500 font-medium py-3 sm:py-4 px-6 sm:px-10 rounded-full transition-all duration-200 text-base sm:text-lg;
+  }
+  
+  .section {
+    @apply py-16 sm:py-20 md:py-24 lg:py-32;
+  }
+  
+  .apple-card {
+    @apply bg-white rounded-apple shadow-apple p-5 sm:p-8 md:p-10 transition-all duration-300 hover:shadow-apple-md;
+  }
+  
+  .apple-grid {
+    @apply grid gap-4 sm:gap-6 md:gap-8 lg:gap-10;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .mobile-padding {
+      @apply px-2 py-3;
+    }
+    
+    .mobile-stack {
+      @apply flex flex-col;
+    }
+    
+    .mobile-center {
+      @apply text-center flex justify-center items-center;
+    }
+    
+    .mobile-full-width {
+      @apply w-full;
+    }
+  }
+}
